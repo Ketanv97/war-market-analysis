@@ -2,7 +2,9 @@
 
 How it looks:
 X-axis: Date 
+
 Y-axis: Normalized price (starting from 100) 
+
 Lines: Oil, Nifty 50, S&P 500
 
 What it shows:
