@@ -38,31 +38,31 @@ print(data.head())
 normalized = data / data.iloc[0] * 100
 print(normalized.head())
 
-'''# Plot
+# Plot
 plt.figure(figsize=(10,5))
 plt.plot(normalized)
 plt.title("Oil vs Stock Market")
 plt.legend(normalized.columns)
-plt.show()'''
+plt.show()
 
-'''#Heat map correlation
+#Heat map correlation
 correlation = data.corr()
 print("\nCorrelation:\n", correlation)
 sns.heatmap(correlation, annot=True, cmap="coolwarm")
 plt.title("Correlation Matrix")
-plt.show()'''
+plt.show()
 
-'''# Returns (Market Movement)
+# Returns (Market Movement)
 returns = data.pct_change().dropna()
 print(returns.head())
 returns.plot(figsize=(10,5), title="Daily Returns")
-plt.show()'''
+plt.show()
 
-'''#Focus on War Period
+#Focus on War Period
 recent = data.loc["2026-01-01":]
 recent_norm = recent / recent.iloc[0] * 100
 recent_norm.plot(figsize=(10,5), title="War Period Impact")
-plt.show()'''
+plt.show()
 
 # Sector Analysis
 
