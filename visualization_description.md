@@ -1,8 +1,10 @@
 1.	Oil vs Stock Market Graph (Normalized Prices)
+
 How it looks:
 X-axis: Date 
 Y-axis: Normalized price (starting from 100) 
 Lines: Oil, Nifty 50, S&P 500
+
 What it shows:
 When the war escalates, oil prices spike sharply. At the same time, stock markets dip (Nifty and S&P 500 go down). This visually confirms the negative correlation between oil prices and markets during crises.
 Insight to highlight:
